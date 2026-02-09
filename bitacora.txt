@@ -8,3 +8,6 @@ genero ningun error por estar en root.
 7- con el comando echo las banderas > y >> sirven:
  > (Redirección de Sobrescritura): Crea un nuevo archivo o sobrescribe completamente el contenido existente si ya existe.
  >> (Redirección de Adición): Añade la salida al final del archivo. Si el archivo no existe, lo crea.
+
+9- En este punto me surgio un fatal error, primero por no copiar bien el token con "control + shift + v" y segundo pro poner mal el comando de push, ya que
+no especifique en que rama del remote deberia montarlo, puse  "git push" en vez de "git push -u origin master"
