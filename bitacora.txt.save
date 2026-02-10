@@ -1,5 +1,6 @@
 3- En el paso de actualizar la base de datos no me salio error, debido a que  anteriormente habia usado sudo y por eso solo me pidio la contraseña de la maquina.
 En caso de que hubiera salido error habria que ponerlo de la siguiente manera: "sudo apt update" y "sudo apt upgrade" o cambiando de usuario con "sudo su".
+
 4- Especificaciones de neofetch (nos da el resumen tecnico del computador)
 
 OS: sistema operativo que tenemos instalado (distro + version + arquitectura), en este caso el compuatdor tiene linux mint, con la version 22.2 y arquitectura de 64 bits.
@@ -7,20 +8,18 @@ Host: nos dice en el pc que estamos trabajando, en este caso el nombre u modelo 
 Kernel: nos indica el kernel o nucleo de nuestro sistema, aquel que controla o isrve de puente entre nuestro hadware y el computador.
 Uptime: indica el tiempo que lleva encendio el computador sin apagarse, en este caso llevaba prendido 1 h y 34 m , que en resumen es lo que llevábamos de clase.
 Packages: Son todos los paquetes(programas, librerias, drivers, etc) instalados usando dpkg (gestor de Debian/Ubuntu/Mint); por ejemplo yo tengo 1967 paquetes instalados.
-Shell: el lenguaje que entiende nuestra terminal o el interprete de comando ( bash en la version 5.2.21) 
-Resolution: la resolucion de la pantalla o las dimensiones de mi pantalla.
-DE: (Desktop Environment) es el entorno grafico completo, en este caso es cinnamon 6.4.8 que es un parecido al entrono grafico de windows.
-WM: (Window Manager) es el motor de las ventanas y nos da las funcionalidades y efectos visuales o animaciones de las ventana. (mutter (muffin); version modificada de mutter 
-para linux mint)
-WM Theme: nos dice los colores y estilo visual del window manage.  (Mint-y-dark-aqua; tema oscuro)
-Theme: tema o colores y estilo visual de las aplicaciones , botones, menus, etc... (mint-y-aqua (gtk2/3)) siendo gtk2/3 la libreria grafica del tema.
-Icons: el nombre del paquete de iconos del sistema (mint.y.sand)
-Terminal: la app donde se ejecutan los comandos, en este caso la terminal gnome es muy buena.
-CPU: me dice las caracteristicas de mi procesador , ()
+Shell: el lenguaje que entiende nuestra terminal 
+Resolution:
+DE:
+WM:
+WM Theme:
+Theme:
+Icons:
+Terminal:
+CPU:
 GPU:
 GPU:
 Memory:
-
 
 5- Algo interesante que note es que al momento de usar sudo su , el usuario sin permisos queda guardado en el directorio donde usamos el comando, entonces
 por mas que nos movamos en modo de usuario root , al momento de darle exit, volvemos al lugar de incio donde pusimos sudo su. Ademas, este paso no me
