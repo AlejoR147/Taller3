@@ -1,5 +1,6 @@
 3- En el paso de actualizar la base de datos no me salio error, debido a que  anteriormente habia usado sudo y por eso solo me pidio la contraseña de la maquina.
 En caso de que hubiera salido error habria que ponerlo de la siguiente manera: "sudo apt update" y "sudo apt upgrade" o cambiando de usuario con "sudo su".
+
 4- Especificaciones de neofetch (nos da el resumen tecnico del computador)
 
 OS: sistema operativo que tenemos instalado (distro + version + arquitectura), en este caso el compuatdor tiene linux mint, con la version 22.2 y arquitectura de 64 bits.
@@ -16,10 +17,10 @@ WM Theme: nos dice los colores y estilo visual del window manage.  (Mint-y-dark-
 Theme: tema o colores y estilo visual de las aplicaciones , botones, menus, etc... (mint-y-aqua (gtk2/3)) siendo gtk2/3 la libreria grafica del tema.
 Icons: el nombre del paquete de iconos del sistema (mint.y.sand)
 Terminal: la app donde se ejecutan los comandos, en este caso la terminal gnome es muy buena.
-CPU: me dice las caracteristicas de mi procesador , ()
-GPU:
-GPU:
-Memory:
+CPU: me dice las caracteristicas de mi procesador , (nombre+nucleos+hilos+velocidad)
+GPU:(iGPU) GPU integrada , o tarjeta grafica integrada con el procesador (Radeon RX vega 6), suele usarse para tareas simples
+GPU: (dGPU) GPU dedicada, o tarjeta grafica independiente , tiene sus propias caracteristicas y normalmente mas potencia (Radeon 540/ 550X)
+Memory: nos muestra el total de ram y la ram usada de nuestra maquina (ramUsada/ramTotal)
 
 
 5- Algo interesante que note es que al momento de usar sudo su , el usuario sin permisos queda guardado en el directorio donde usamos el comando, entonces
@@ -32,3 +33,5 @@ genero ningun error por estar en root.
 
 9- En este punto me surgio un fatal error, primero por no copiar bien el token con "control + shift + v" y segundo pro poner mal el comando de push, ya que
 no especifique en que rama del remote deberia montarlo, puse  "git push" en vez de "git push -u origin master"
+
+Nota: hay que estar muy pendiente de los permisos que necesitan ciertos comandos, ademas de sus banderas, ya que son muy importantes para no tener ningun error y revibir lo esperado.
